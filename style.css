@@ -1,0 +1,104 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: grey;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0;
+  height: 88px;
+  overflow: hidden;
+  background-color: #c47f00;
+  color: white;
+  font-family: Roboto;
+}
+
+li {
+  float: left;
+  display: inline;
+}
+
+li a{
+  display: block;
+  margin: 0%;
+  padding: 37px;
+  background-color: #a77b41;
+  font-family: sans-serif;
+}
+
+li a:hover{
+  background-color: #7d5c31;
+}
+
+div.icon li a {
+  background-color: transparent;
+  padding: 0%;
+  margin: 0%;
+}
+
+.bodytext1 {
+  width: 10%;
+  height: 10%;
+}
+
+body {
+  text-align: center;
+}
+
+div.channel {
+  background-color: #c47f00;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 10px;
+  width: 167px;
+  font-weight: bold;
+  font-family: Arial;
+  color: #45331b;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #45331b;
+  padding: 18px, 12px;
+  z-index: 1;
+}
+
+.icon:hover .dropdown-content {
+  display: block;
+}
+
+div.gallery a img {
+  width: 220px;
+  height: 330px;
+}
+
+div.rainbow p {
+  background-color: transparent;
+  font-weight: bold;
+  font-family: Arial;
+  color: #45331b;
+  width: 167px;
+  margin-left: 46%;
+}
+
+div.rainbow p:hover {
+  animation-name: oh-god;
+  height: auto;
+  width: 167px;
+  background-color: red;
+  animation-duration: 500ms;
+  animation-iteration-count: 1000;
+}
+
+@keyframes oh-god {
+  0% {background-color: red;}
+  20% {background-color: green }
+  40% {background-color: yellow}
+  60% {background-color: blue;}
+  80% {background-color: purple;}
+  100% {background-color: red;}
+}
